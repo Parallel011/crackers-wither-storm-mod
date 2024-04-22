@@ -116,7 +116,7 @@ body:
     id: crash-reports-logs
     attributes:
       label: Crash Reports/Logs
-      description: Crash reports / logs hosted on pastebin, gist, etc.
+      description: Crash reports / logs hosted on pastebin, gist, etc. Please include a latest.log with your bug report, located in .minecraft/logs, from when the bug occured
     validations:
       required: true
   - type: checkboxes
