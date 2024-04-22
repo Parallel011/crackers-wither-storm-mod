@@ -15,7 +15,7 @@ body:
       label: Guidelines
       options:
         - label: By checking this box, I am saying that I have read the guidelines and believe to be following them to the best of my ability
-          required: false
+          required: true
   - type: dropdown
     id: mc-version
     attributes:
@@ -117,6 +117,8 @@ body:
     attributes:
       label: Crash Reports/Logs
       description: Crash reports / logs hosted on pastebin, gist, etc.
+    validations:
+      required: true
   - type: checkboxes
     id: optifine-installed
     attributes:
