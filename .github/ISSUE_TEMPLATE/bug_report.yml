@@ -8,7 +8,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        # [Guidelines](https://github.com/nonamecrackers2/ crackers-wither-storm-mod/blob/1.16.5/docs/CONTRIBUTING.md)
+        [Please read the guidelines before submitting](https://github.com/nonamecrackers2/crackers-wither-storm-mod/blob/1.16.5/docs/CONTRIBUTING.md)
   - type: checkboxes
     id: read-guideliens
     attributes:
