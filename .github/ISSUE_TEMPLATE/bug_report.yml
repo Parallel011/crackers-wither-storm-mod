@@ -8,7 +8,13 @@ body:
   - type: markdown
     attributes:
       value: |
-        # Please check the (UPDATED) [guidelines](https://github.com/nonamecrackers2/crackers-wither-storm-mod/blob/1.16.5/docs/CONTRIBUTING.md) before submitting
+        # Please read the [guidelines](https://github.com/nonamecrackers2/crackers-wither-storm-mod/blob/1.16.5/docs/CONTRIBUTING.md) before submitting
+  - type: checkboxes
+    id: read-guideliens
+    attributes:
+      options:
+        - label: By checking this box, I am saying that I have read the guidelines and believe to be following them to the best of my ability
+          required: false
   - type: dropdown
     id: mc-version
     attributes:
