@@ -5,14 +5,14 @@ labels: ["suggestion"]
 projects: []
 assignees: []
 body:
-   - type: markdown
+  - type: markdown
     attributes:
       value: |
         # [Please read the guidelines before submitting](https://github.com/nonamecrackers2/crackers-wither-storm-mod/blob/1.16.5/docs/CONTRIBUTING.md)
 
-        # Only one feature suggestion per issue.
+        # Only one feature suggestion per issue
   - type: checkboxes
-    id: read-guideliens
+    id: read-guidelines
     attributes:
       label: Guidelines
       options:
